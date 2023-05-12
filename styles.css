@@ -223,12 +223,11 @@ footer {
 /* contact */
 
 .contactHeader{
-  color: #8e00ff;
   cursor: pointer;
 }
 
 .contactHeader:hover{
-  color: #0100ff;
+  color:#8e00ff;
 }
 
 .form{

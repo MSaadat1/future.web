@@ -222,119 +222,41 @@ footer {
 
 /* contact */
 
+.contactHeader{
+  color: #8e00ff;
+  cursor: pointer;
+}
+
+.contactHeader:hover{
+  color: #0100ff;
+}
+
 .form{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     overflow: hidden;
     align-items: center;
     margin-top: 40px;
-    
+    gap: 10px; 
   }
   
-  .form-name, .form-address, .form-birthday, .form-mail{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    
-  }
-
-  #name, 
-  #location,
-  #email{
-    color:#8e00ff;
-  }
- 
-  input#phone, 
-  #phone-number,
-  #birthday{
-    color: #0100ff;
-  }
-  
-  #name, #location, #birthday, #email{
-    width: 500px;
+  #firstName, #address, #birthday, #email, #number, #birthday{
+    width: 700px;
     height: 60px;
     margin-left: 10px;
     padding-left: 10px;
     border: 3px solid #e6e3eb;
     background-color: black;
     font-size: 20px;
-  }
-  
-  .form-contact{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    overflow: hidden;
-    margin: 20px 0px;
-    gap: 10px;
-  }
-  
-  #phone,
-  #phone-number
-  {
-    border: 3px solid white;
-    font-size: 20px;
-    padding-left: 10px;
-    background-color: black;
-  }
+    color: #0100ff;
+    cursor: pointer;
 
-  #phone{
-    width: 340px;
-    height: 60px;
   }
-
-  #phone-number{
-    height: 70px;
-  }
-  
-  .form-city{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   overflow: hidden;
-  }
-  
-  #city{
-   margin-top: 15px;
-   padding-left: 10px;
-   margin-left: 30px;
-   width: 500px;
-   height: 60px;
-   border: 3px solid white;
-   font-size: 20px;
-   background-color: black;
-   color:#0100ff;
-  }
-  
-  .form-state{
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    gap: 10px;
-    height: 65px;
-   }
-  
-  #state, #zipe-code{
-  width: 250px;
-  border: 3px solid #e6e3eb;
-  background-color: black;
-  font-size: 20px;
-  color:#8e00ff;
-  padding-left: 5px;
-    
-  }
-  
-  
-  #email{
-   border: 3px solid white;
-   background-color: initial;
-   margin-bottom: 15px;
+  .iframe{
+    width: 100%;
+   
   }
 
   .form-btn{
@@ -405,7 +327,9 @@ footer {
     .btn{
      margin: 30px 0px;
     }
-
+    #firstName, #address, #birthday, #email, #number{
+      width: 500px;
+     }
 
   }
 
@@ -448,23 +372,8 @@ footer {
       }
     /*Contact*/
 
-    #name, #location, #birthday, #email{
-     width: 300px;
-    }
-    #state, #zipe-code{
-    width: 150px;
-    }
-    #city{
-    width: 300px;
-    }
-    #phone{
-     width: 150px;
-    }
-    #phone-number{
-     width: 140px;
-    }
-    .form-btn{
-     width: 180px;
+    #firstName, #address, #birthday, #email, #number{
+     width: 280px;
     }
 
   }

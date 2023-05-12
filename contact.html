@@ -37,68 +37,41 @@
         </div>
       </div>
     </nav>
-
     <section>
+      <h1 class="contactHeader">Contact Address</h1>
+      <iframe class="iframe"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80527.9227992968!2d-77.30679374007856!3d38.6269281281013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b65593c31c6ffb%3A0x72326e8a35e46e0!2sWoodbridge%2C%20VA%2022191!5e0!3m2!1sen!2sus!4v1683846904028!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div>
         <form class="form">
-            <div class="form-name">
-             <lable for="name">
-             <span class="material-symbols-outlined">person</span>
-             </lable>
-             <input id="name" type="text" placeholder="Name" value="Name"/>
-            </div>
-            
-            <div class="form-contact">
+          <label for="firstName">
+            <span class="material-symbols-outlined">person</span>
+            <input type="text" id="firstName" placeholder="First Name"/>
+          </label>
+          <label for="lastName">
+            <span class="material-symbols-outlined">person</span>
+            <input type="text" id="firstName" placeholder="Last Name"/>
+          </label>
+          <label for="email">
+            <span class="material-symbols-sharp">mail</span>
+            <input type="email" id="email" placeholder="Email Address"/>
+          </label>
+          <label for="birthday">
+            <span class="material-symbols-sharp">cake</span>
+            <input type="date" id="birthday"/>
+          </label>
+          <label>
             <span class="material-symbols-outlined">call</span> 
-            <input id="phone" type="number" placeholder="Phone Number" value="Phone Number"/>
-            <select id="phone-number">
-              <option value="">Lable</option>
-              <option  value="" >5712505678</option>
-              <option  value="">5712345678</option>
-              <option  value="">5714567809</option>
-           </select>
-           </div>
-          
-            <div class="form-address">
-              <lable class="map" for="location"><span class="material-symbols-sharp">location_on</span>
-              </lable>
-              <input id="location" type="address" placeholder="Address" value="Address"/>
-            </div>
-            
-            <div class="form-city">
-            <label for="city"></lable>
-            <input id="city" type="text" placeholder="City" value="City"/>
-            </div>
-            
-             <div class="form-state">
-              <select id="state">
-                <option value="">State</option>
-                 <option value="">Virginia</option>
-                 <option value="">New York</option>
-                 <option value="">California</option>
-              </select>
-             <input id="zipe-code" type="number" placeholder="Zip" value="Zip"/>
-             </div>
-            
-             <div class="form-mail">
-              <lable for="email">
-                <span class="material-symbols-sharp">mail</span>
-              </lable>
-              <input id="email" type="email" placeholder="Email" value="Email"/>
-             </div>
-            
-            <div class="form-birthday">
-              <lable for="birthday">
-                <span class="material-symbols-sharp">cake</span>
-              </lable>
-              <input id="birthday" type="date" value="Birthday"/>
-            </div>
-
-            <div>
-                <button class="form-btn"><a href="#">SUBMIT</a></button>
-              </div>
-          </form>
-
-         
+            <input type="number" id="number" placeholder="Phone Number"/>
+          </label>
+          <label>
+            <span class="material-symbols-sharp">location_on</span>
+            <input type="address" id="address" placeholder="Address"/>
+          </label>
+          <div>
+            <button class="form-btn"><a href="#">SUBMIT</a></button>
+          </div>
+        </form>
+      </div>
     </section>
 
     <footer>
